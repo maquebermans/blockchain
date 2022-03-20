@@ -4,7 +4,7 @@ Ref : https://ovo.udemy.com/course/build-your-blockchain-az/learn/lecture/965739
 # Tools
 - anaconda
 - spyder
-- Flask 0.12.2
+- Flask
 - postman
 
 # Consensus
