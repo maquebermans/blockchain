@@ -6,5 +6,6 @@
 Consensus approach is using Proof of Work (PoW)
 
 # Usage
-source env/bin/activate
+cd blockchain_az <br/>
+source env/bin/activate <br/>
 python3 blockchain.py
