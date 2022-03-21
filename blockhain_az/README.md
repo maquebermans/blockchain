@@ -1,11 +1,10 @@
-# Reference 
-Ref : https://ovo.udemy.com/course/build-your-blockchain-az/learn/lecture/9657394#overview
-
 # Tools
-- anaconda
-- spyder
+- Python 3
 - Flask
-- postman
 
 # Consensus
-Consensus approach Proof of Work (PoW)
+Consensus approach is using Proof of Work (PoW)
+
+# Usage
+source env/bin/activate
+python3 blockchain.py
