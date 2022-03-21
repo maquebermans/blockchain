@@ -135,7 +135,11 @@ def get_chain():
 @app.route('/is_valid', methods = ['GET'])
 def is_valid():
     chain = blockchain.chain
-    response = {'message': blockchain.is_chain_valid(chain)}
+    valid = blockchain.is_chain_valid(chain)
+    if valid: 
+        response = {'message': 'All chain are valid.'}
+    else:
+        response = {'message': 'Chain are not valid.'}
     return jsonify(response), 200
 
 # Running the flask server
